@@ -1,4 +1,6 @@
 <?php
+define('ENVIRONMENT', isset($_SERVER['ENV']) ? $_SERVER['ENV'] : 'local');
+
 require 'vendor/autoload.php';
 
 $config = require_once "config/slim.php";
