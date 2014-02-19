@@ -1,0 +1,23 @@
+{
+  "name": "silentworks/slim-bootstrap",
+  "authors": [
+    {
+      "name": "Andrew Smith",
+      "email": "a.smith@silentworks.co.uk"
+    }
+  ],
+  "require": {
+    "slim/slim": "dev-develop as 3.0.0",
+    "slim/middleware": "1.0.*",
+    "illuminate/database": "4.1.*",
+    "league/fractal": "0.7.*"
+  },
+  "autoload": {
+      "psr-0": {
+          "App": "."
+      },
+      "classmap": [
+        "core/"
+      ]
+  }
+}
